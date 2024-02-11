@@ -16,7 +16,7 @@ body {
 .group53578 {
     width: 1440px;
     height: 875px;
-    border: 2px solid rgb(255, 99, 99);
+    /* border: 2px solid rgb(255, 99, 99); */
     /* BORDA HEADER */
 }
 .group53577 {
@@ -240,6 +240,9 @@ body {
     padding: 10px;
     border-radius: 8px;
     background-color: #D8E3F2;
+    /* bizu - esse elemento permite que não seja visualizado nada que utrapasse a borda*/
+    overflow: hidden;
+    position: relative;
 }
 .promo_off {
     width: 96px;
@@ -271,7 +274,10 @@ body {
     margin-left: 20px;
     color: red;
     font-size: 16px;
-    font-weight: bold;    
+    font-weight: bold;
+    /* bizu - esse elemento permite que o botão fique a frente da camiseta*/
+    position: relative;  
+    z-index: 1;   
 }
 .imagem_promo1 {
     max-width: 450px;
