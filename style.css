@@ -158,14 +158,63 @@ body {
     margin-left: 80px;
     position: relative;
     display: inline-block;
+    margin-top: 10px;
 }
 .shopping_car {
     position: absolute;
+    width: 40px;
 }
+/* SEGUNDA ETAPA DO HEADER */
 .rectangle7 {
     width: 1440px;
     height: 681px;
     margin-top: 2px;
     background-color: #f5f5f5;
-    /* border: 2px solid red; */
+    display: flex;
+}
+.produto_descricao_container {
+    width: 1303px;
+    height: 352px;
+    display: block;
+    border: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 100px;
+    margin-top: 126px;
+}
+.melhores_ofertas {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #F6AA1C;
+    font-size: 16px;
+}
+.queima_ {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+.produto_descricao_c p {
+    font-family: "Roboto", sans-serif;
+    color: #474747;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.btn_ver_ofertas {
+    width: 220px;
+    height: 48px;
+    background-color: #c92071;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.produto_item_container {
+    margin-right: 250px;
+
+}
+.produto_item {
+    transform: rotate(-19.1rad);
+
 }
