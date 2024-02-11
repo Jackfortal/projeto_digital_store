@@ -194,12 +194,14 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 64px;
     font-weight: bold;
+    line-height: 60px;
 }
 .produto_descricao_c p {
     font-family: "Roboto", sans-serif;
     color: #474747;
     font-size: 18px;
     white-space: nowrap;
+    line-height: 35px;
 }
 .btn_ver_ofertas {
     width: 220px;
@@ -212,9 +214,87 @@ body {
 }
 .produto_item_container {
     margin-right: 250px;
-
 }
 .produto_item {
     transform: rotate(-19.1rad);
-
+}
+.colecao_em_d {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.promo_layout_container {
+    width: 1300px;
+    height: 251px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_promo_layout {
+    width: 405px;
+    height: 251px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #D8E3F2;
+}
+.promo_off {
+    width: 96px;
+    height: 32px;
+    border-radius: 29px;
+    background-color: #E7FF86;
+    gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novo_drop {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.btn_comprar {
+    width: 153px;
+    height: 48px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;    
+}
+.imagem_promo1 {
+    max-width: 450px;
+    max-height: 350px;
+    margin-top: -160px;
+    margin-left: 180px;
+    object-fit: cover;
+    transform: rotate(-19.2rad);
+}
+.imagem_promo2 {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: -160px;
+    margin-left: 180px;
+    object-fit: cover;
+    transform: rotate(1.5rad);
+    transform: scaleX(-1);
+}
+.imagem_promo3 {
+    max-width: 350px;
+    max-height: 330px;
+    margin-top: -220px;
+    margin-left: 200px;
+    object-fit: cover;
+    transform: rotate(0.5rad);
 }
