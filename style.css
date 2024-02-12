@@ -343,6 +343,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 .vetor_tshirt {
     width: 64px;
@@ -398,6 +400,7 @@ body {
     height: 321px;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .img_produto_box {
     margin-top: 40px;
