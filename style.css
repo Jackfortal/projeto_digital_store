@@ -356,7 +356,8 @@ body {
 }
 .produtos_em_alta_container {
     width: 1240px;
-    margin-top: 70px;
+    height: 38px;
+    margin-top: 100px;
     margin-left: 100px;
     display: flex;
     justify-content: space-between;
@@ -366,15 +367,79 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #474747;
-    margin-top: 55px;
-    margin-bottom: 30px;
+    margin-right: auto;
+    text-wrap: nowrap;
 }
 .produtos_em_ver {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-
-    text-align: ;
     color: #c92071;
-    margin-top: 55px;
-    margin-bottom: 30px;
+    margin-left: auto;
+    text-wrap: nowrap;
+}
+.produtos_grid_container {
+    width: 1300px;
+    height: 900px;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.card_produto_box {
+    width: 292px;
+    height: 439px;
+    /* background-color: blueviolet; */
+    display: block;
+}
+.card_produto_box_white {
+    width: 292px;
+    height: 321px;
+    background-color: white;
+    border-radius: 8px;
+}
+.img_produto_box {
+    margin-top: 40px;
+}
+.img_produto {
+    width: 248px;
+    height: 134px;
+    transform: rotate(-0.5rad);   
+}
+.card_produto_box_descricao {
+    width: 292px;
+    height: 118px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card_produto_box_cont_name {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #474747;
+}
+.card_produto_box_cont_modelo {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card_produto_box_cont_valor {
+    width: auto;
+    height: 38px;
+    display: flex;
+}
+.card_produto_box_cont_valor_real {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #474747;
+    text-decoration: line-through;
+}
+.card_produto_box_cont_valor_desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
 }
