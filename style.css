@@ -344,7 +344,6 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 .vetor_tshirt {
     width: 64px;
@@ -446,3 +445,69 @@ body {
     font-weight: bold;
     margin-left: 20px;
 }
+.oferta_especial_container {
+    width: 1440px;
+    height: 553px;
+    background-color: white;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.oferta_esp_degrade {
+    width: 466px;
+    height: 466px;
+    margin-top: 85px;
+    margin-left: 129px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(68, 0, 255, 0.123) 0%, rgba(255,255,255,1) 100%);
+    position: absolute;
+}
+.oferta_esp_tenis {
+    width: 573px;
+    height: 330px;
+    margin-top: 120px;
+    margin-left: 52px;
+    position: relative;
+}
+.oferta_especial_text {
+    width: 589px;
+    height: 341px;
+    margin-top: 115px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.oferta_especial_oferta {
+    font-size: 14px;
+    color: #c92071;
+    font-weight: bold;
+}
+.oferta_especial_air {
+    font-size: 48px;
+    color: #474747;
+    font-weight: bold;
+    text-wrap: nowrap;
+}
+.oferta_especial_lorem {
+    font-size: 16px;
+    color: #474747;
+    font-weight: 400;
+    line-height: 30px;
+}
+.oferta_especial_ver {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #c92071;
+}
+.footer_container {
+    width: 1440px;
+    height: 454px;
+    background-color: #1F1F1F;
+}
+
+
