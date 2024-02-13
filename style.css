@@ -509,6 +509,7 @@ body {
     height: 454px;
     background-color: #1F1F1F;
     font-family: "Roboto", sans-serif;
+    color: white;
     display: flex;
     position: absolute;
 }
@@ -555,4 +556,36 @@ body {
 .logo_rs {
     width: auto;
     height: 30px;
+}
+.informacao_container {
+    width: 135px;
+    height: 280px;
+    margin-top: 72px;
+    margin-left: 600px;
+    position: absolute;
+    /* border: 1px solid #c92071; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.topico_informacao {
+    font-size: 18px;
+    font-weight: bold;
+}
+.topico_informacao_box {
+    width: 135px;
+    height: 228px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.topico_informacao_list {
+    list-style: none;
+}
+.topico_informacao_text {
+}
+a {
+    text-decoration: none;
+    color: white;
 }
