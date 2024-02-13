@@ -508,6 +508,30 @@ body {
     width: 1440px;
     height: 454px;
     background-color: #1F1F1F;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+
 }
+.logo_white_box {
+    width: 253px;
+    height: 44px;
+    margin-left: 104px;
+    margin-top: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.logo_white_log {
+    width: 33px;
+    height: 33px;
+}
+.logo_white_digital {
+    color: white;
+    font-size: 36.5px;
+    margin-left: 6px;
+    font-weight: bold;
+
+}
+
 
 
