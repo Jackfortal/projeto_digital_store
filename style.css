@@ -510,6 +510,7 @@ body {
     background-color: #1F1F1F;
     font-family: "Roboto", sans-serif;
     display: flex;
+    position: absolute;
 }
 .logo_white_box {
     width: 253px;
@@ -530,6 +531,28 @@ body {
     margin-left: 6px;
     font-weight: bold;
 }
-
-
-
+.footer_lorem {
+    width: 307px;
+    height: 78px;
+    color: white;
+    position: relative;
+    margin-top: 180px;
+    margin-left: -250px;
+    line-height: 26px;
+}
+.redes_sociais_container {
+    width: 170px;
+    height: 40px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: -307px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+}
+.logo_rs {
+    width: auto;
+    height: 30px;
+}
