@@ -327,6 +327,14 @@ body {
     justify-content: space-between;
     margin-left: 364px;
 }
+.bnt_card_list1 {
+    width: 104px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .card_list1 {
     width: 104px;
     height: 138px;
@@ -532,6 +540,7 @@ body {
     font-size: 36.5px;
     margin-left: 6px;
     font-weight: bold;
+    text-wrap: nowrap;
 }
 .footer_lorem {
     width: 307px;
@@ -623,7 +632,26 @@ a {
 }
 .topico_end {
     font-size: 16px;
+    line-height: 26px;
 }
 .topico_tel {
     font-size: 16px;
+}
+.linha_footer {
+    position: absolute;
+    width: 1240px;
+    height: 1px;
+    color: white;
+    background-color: white;
+    margin-top: 384px;
+    margin-left: 100px;
+    opacity: 30%;
+    display: flex;
+}
+.copyright {
+    position: absolute;
+    margin-top: 408px;
+    margin-left: 618px;
+    font-family: "Roboto", sans-serif;
+    color: white;
 }
