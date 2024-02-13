@@ -517,10 +517,11 @@ body {
     width: 253px;
     height: 44px;
     margin-left: 104px;
-    margin-top: 100px;
+    margin-top: 72px;
     display: flex;
     align-content: center;
     align-items: center;
+    position: absolute;
 }
 .logo_white_log {
     width: 33px;
@@ -536,17 +537,17 @@ body {
     width: 307px;
     height: 78px;
     color: white;
-    position: relative;
-    margin-top: 180px;
-    margin-left: -250px;
+    position: absolute;
+    margin-top: 151px;
+    margin-left: 104px;
     line-height: 26px;
 }
 .redes_sociais_container {
     width: 170px;
     height: 40px;
-    position: relative;
-    margin-top: 300px;
-    margin-left: -307px;
+    position: absolute;
+    margin-top: 269px;
+    margin-left: 104px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -561,9 +562,8 @@ body {
     width: 135px;
     height: 280px;
     margin-top: 72px;
-    margin-left: 600px;
+    margin-left: 612px;
     position: absolute;
-    /* border: 1px solid #c92071; */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -575,17 +575,55 @@ body {
 .topico_informacao_box {
     width: 135px;
     height: 228px;
-    /* border: 1px solid white; */
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
-.topico_informacao_list {
+li {
     list-style: none;
-}
-.topico_informacao_text {
 }
 a {
     text-decoration: none;
     color: white;
+}
+.categorias_container {
+    width: 100px;
+    height: 240px;
+    margin-top: 72px;
+    margin-left: 849px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.topico_categorias {
+    font-size: 18px;
+    font-weight: bold;
+}
+.topico_categorias_box {
+    width: 100px;
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contato_container {
+    width: 233px;
+    height: 168px;
+    margin-top: 72px;
+    margin-left: 1113px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.topico_contato {
+    font-size: 18px;
+    font-weight: bold;
+}
+.topico_end {
+    font-size: 16px;
+}
+.topico_tel {
+    font-size: 16px;
 }
